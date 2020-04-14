@@ -1,5 +1,5 @@
 const covid19ImpactEstimator = (data) => data;
-{
+{//inpput
   region: {
     name: "Africa",
       avgAge: 19.7,
@@ -12,6 +12,10 @@ const covid19ImpactEstimator = (data) => data;
           population: 66622705,
             totalHospitalBeds: 1380614
 }
-
-
+{ 
+ data: {}
+ impact: {}
+severeImpact: {}
+  currentlyInfected: {}
+}
 export default covid19ImpactEstimator;
